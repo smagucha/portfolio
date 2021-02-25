@@ -39,7 +39,7 @@ function Nav() {
     
         <MenuLink to = "/" > home </MenuLink>
         <MenuLink to = "/about"> about </MenuLink>
-        <MenuLink to = "/form">forms </MenuLink>
+        <MenuLink to = "/form">projects </MenuLink>
         <MenuLink to = "/form1">formtwo </MenuLink>
         <MenuLink to = "/contact">Find Me</MenuLink>
        </NavHeader>

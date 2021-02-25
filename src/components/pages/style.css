@@ -39,9 +39,7 @@ img {
 	border-color: white;
 
 }
-.box li.d {
-  list-style-type: lower-alpha;
-}
+
 .mainbox{
 	width:100%;
 	text-align:;
@@ -53,10 +51,34 @@ img {
 	padding: 5px;
 	border-style: groove;
 	border-radius: 10px;
+	margin-bottom: 10px;
 
 }
 
 body{
-	background-color: #5CDB95;	
-	margin: 0 auto;
+	background-color: #5CDB95;
+	
+}
+
+.box1{
+	
+	width: 30%;
+	float:left;
+	margin: 5px;
+	margin-left: 10px;
+	border-style: groove;
+	border-radius: 10px;
+	text-align: left;
+}
+.box2{
+	
+	width: 65%;
+	float:left;
+	margin: 5px;
+	margin-left: 10px;
+	border-style: groove;
+	border-radius: 10px;
+	text-align: left;
+	list-style-type: space-counter;
+	list-style-position: inside;
 }

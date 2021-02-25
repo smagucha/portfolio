@@ -8,6 +8,11 @@ import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import FormExample from './components/pages/form1'
 import Nav from './components/header/nav.js';
 import Mainnav from './components/main/main.js';
+const name='sammy magucha';
+const phone = 254707181264;
+const email ='smagucha@gmai.com'
+const linkedin='linkedin.com/in/smagucha'
+const github='github.com/smagucha'
 
 function App() {
   return (
