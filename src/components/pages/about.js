@@ -26,8 +26,9 @@ function About() {
 				<li>celery</li>
 				<li>selenium</li>
 	    	</div>
+	    	<div className='footer'><Footer /></div>
 	    </div>
-	    <div className='footer'><Footer /></div>
+	    
     </div>
    
   );
