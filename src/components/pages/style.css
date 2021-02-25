@@ -36,6 +36,7 @@ img {
 	text-align: left;
 	list-style-type: upper-roman;
 	list-style-position: inside;
+	border-color: white;
 
 }
 .box li.d {
@@ -46,6 +47,16 @@ img {
 	text-align:;
 }
 .footer{
+	border-color: white;
 	clear: both;
-	height: 15vh;
+	height: 40vh;
+	padding: 5px;
+	border-style: groove;
+	border-radius: 10px;
+
+}
+
+body{
+	background-color: #5CDB95;	
+	margin: 0 auto;
 }
