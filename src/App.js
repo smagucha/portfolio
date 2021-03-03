@@ -5,7 +5,7 @@ import Home from './components/pages/home'
 import Contact from './components/pages/contact'
 import Project from './components/pages/project'
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import FormExample from './components/pages/form1'
+import Article from './components/pages/article';
 import Nav from './components/header/nav.js';
 import Mainnav from './components/main/main.js';
 const name='sammy magucha';
@@ -23,7 +23,7 @@ function App() {
           <Route path="/contact" component ={Contact} />
           <Route path="/about" component ={About} />
           <Route path="/project" component ={Project} />
-          <Route path="/form1" component ={FormExample} />
+          <Route path="/article" component ={Article} />
           <Route path='/nav' component={Nav} />
 
         </Switch> 

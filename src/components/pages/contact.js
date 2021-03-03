@@ -43,15 +43,7 @@ function Contact() {
             <input type="submit" value="Submit" />
           </div>
         </form>
-      </div>
-
-
-            
-              
-              
-        
-      
-      
+      </div>      
       <div className='footer'><Footer /></div> 
     </div>
     </div>

@@ -4,7 +4,7 @@ import About from '../pages/about';
 import Home from '../pages/home';
 import Contact from '../pages/contact';
 import Project from '../pages/project';
-import FormExample from '../pages/form1';
+import Article from '../pages/article';
 import './nav.css'
 import styled, { css } from 'styled-components'
 
@@ -40,8 +40,8 @@ function Nav() {
         <MenuLink to = "/" > home </MenuLink>
         <MenuLink to = "/about"> about </MenuLink>
         <MenuLink to = "/project">projects </MenuLink>
-        <MenuLink to = "/form1">formtwo </MenuLink>
-        <MenuLink to = "/contact">Find Me</MenuLink>
+        <MenuLink to = "/article">article </MenuLink>
+        <MenuLink to = "/contact">contact me</MenuLink>
        </NavHeader>
     </Navbar>
   );
