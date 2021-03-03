@@ -82,3 +82,15 @@ body{
 	list-style-type: space-counter;
 	list-style-position: inside;
 }
+.projectimg{
+	width:100%;
+	height: 300px;
+    background-color: orange;
+}
+.img{
+	width:32%;
+	height: 290px;
+	justify-content: center;
+	border-radius: 10px;
+	padding: 5px;
+}
