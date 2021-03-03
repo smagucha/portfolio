@@ -5,7 +5,7 @@ import Footer from '../footer/footer.js';
 import Portfolio from '../img/portfolio.png';
 import Portfolio2 from '../img/portfolio2.png';
 import Portfolio3 from '../img/portfolio3.png';
-export default class NameForm extends React.Component {
+export default class Project extends React.Component {
    render() {
     return (
       <div className='container'>

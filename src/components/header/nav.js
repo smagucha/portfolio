@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import About from '../pages/about';
 import Home from '../pages/home';
 import Contact from '../pages/contact';
-import NameForm from '../pages/forms';
+import Project from '../pages/project';
 import FormExample from '../pages/form1';
 import './nav.css'
 import styled, { css } from 'styled-components'
@@ -39,7 +39,7 @@ function Nav() {
     
         <MenuLink to = "/" > home </MenuLink>
         <MenuLink to = "/about"> about </MenuLink>
-        <MenuLink to = "/form">projects </MenuLink>
+        <MenuLink to = "/project">projects </MenuLink>
         <MenuLink to = "/form1">formtwo </MenuLink>
         <MenuLink to = "/contact">Find Me</MenuLink>
        </NavHeader>
